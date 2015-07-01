@@ -1,15 +1,15 @@
 {
   "name": "fh-internal-stats",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "fh-statsc": {
       "version": "0.2.2",
-      "from": "fh-statsc@^0.2.2",
+      "from": "https://registry.npmjs.org/fh-statsc/-/fh-statsc-0.2.2.tgz",
       "resolved": "https://registry.npmjs.org/fh-statsc/-/fh-statsc-0.2.2.tgz",
       "dependencies": {
         "async": {
           "version": "0.2.9",
-          "from": "async@0.2.9",
+          "from": "https://registry.npmjs.org/async/-/async-0.2.9.tgz",
           "resolved": "https://registry.npmjs.org/async/-/async-0.2.9.tgz"
         }
       }
