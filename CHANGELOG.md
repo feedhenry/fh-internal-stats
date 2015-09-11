@@ -1,5 +1,8 @@
 #Component: fh-internal-stats
 
+## 0.0.4 - 2015-09-11 - Gerard Ryan
+* Bump version of grunt-fh-build, so that archive with dependencies will get built
+
 ## 0.0.3 - 2015-06-22 - FH-164 - Gerard Ryan
 * Build with grunt instead of make
 
