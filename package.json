@@ -1,6 +1,6 @@
 {
   "name": "fh-internal-stats",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Internal component timer utils",
   "main": "stats.js",
   "scripts": {
