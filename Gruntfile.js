@@ -5,5 +5,5 @@ module.exports = function(grunt) {
   grunt.initConfig({});
 
   grunt.loadNpmTasks('grunt-fh-build');
-  grunt.registerTask('default', ['fh:default']);
+  grunt.registerTask('default', ['fh-default']);
 };

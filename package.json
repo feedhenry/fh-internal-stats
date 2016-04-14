@@ -4,7 +4,8 @@
   "description": "Internal component timer utils",
   "main": "stats.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt eslint fh-test",
+    "version": "sed -i.bak \"s/sonar.projectVersion=.*/sonar.projectVersion=${npm_package_version}/\" sonar-project.properties && rm sonar-project.properties.bak && git add sonar-project.properties"
   },
   "author": "",
   "license": "ISC",
@@ -12,8 +13,9 @@
     "fh-statsc": "^0.2.2"
   },
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-fh-build": "^0.5.0",
-    "istanbul": "^0.3.17"
+    "eslint": "^2.7.0",
+    "grunt": "^1.0.1",
+    "grunt-fh-build": "^1.0.1",
+    "istanbul": "^0.4.3"
   }
 }
